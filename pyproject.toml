@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "annarchive"
+version = "1.0.0"
+description = "Pointwise announcement archiver with provenance-locked immutable versions"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools]
+packages = ["annarchive"]
